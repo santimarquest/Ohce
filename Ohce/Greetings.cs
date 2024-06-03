@@ -14,12 +14,12 @@ namespace Ohce
         {
             this.stringTool = stringTool;
         }
-        public virtual string Start(DateTime dateTime)
+        public virtual string Start(string name, DateTime dateTime)
         {
-            return String.Empty;
+            throw new NotImplementedException();
         }
 
-        public void Stop()
+        public virtual string Stop(string name)
         {
             throw new NotImplementedException();
         }

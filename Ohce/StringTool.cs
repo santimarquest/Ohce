@@ -4,7 +4,6 @@ namespace Ohce
 {
     public class StringTool
     {
-        public StringTool() { }
         public string Reverse(string word)
         {
             return new string(word.Reverse().ToArray());
